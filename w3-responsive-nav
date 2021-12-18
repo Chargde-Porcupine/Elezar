@@ -1,0 +1,32 @@
+  .wnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+  }
+
+  .wnav li {
+    float: left;
+  }
+
+  .wnav li a {
+    display: block;
+	  font-size: 2vw;
+    color: cornsilk;
+    text-align: center;
+    padding: 4%;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  .wnav li a:hover {
+    background-color: #111;
+    
+  }
+  @media only screen and (max-width: 800px) {
+	  .wnav li a {
+		  font-size: 3vw;
+	  }
+
+  }
